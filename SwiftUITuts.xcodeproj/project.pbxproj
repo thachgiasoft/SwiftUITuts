@@ -22,6 +22,9 @@
 		C0EB35B3240810E50016DBD1 /* DragDropListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB35B2240810E50016DBD1 /* DragDropListView.swift */; };
 		C0EB35B5240815940016DBD1 /* SearchableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB35B4240815940016DBD1 /* SearchableListView.swift */; };
 		C0EB35B724081C170016DBD1 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB35B624081C170016DBD1 /* SearchBar.swift */; };
+		C0EB35BA24095AA50016DBD1 /* TravelLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB35B924095AA50016DBD1 /* TravelLocation.swift */; };
+		C0EB35BC240961A80016DBD1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB35BB240961A80016DBD1 /* MapView.swift */; };
+		C0EB35BE240968910016DBD1 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB35BD240968910016DBD1 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		C0EB35B2240810E50016DBD1 /* DragDropListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropListView.swift; sourceTree = "<group>"; };
 		C0EB35B4240815940016DBD1 /* SearchableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableListView.swift; sourceTree = "<group>"; };
 		C0EB35B624081C170016DBD1 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		C0EB35B924095AA50016DBD1 /* TravelLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelLocation.swift; sourceTree = "<group>"; };
+		C0EB35BB240961A80016DBD1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C0EB35BD240968910016DBD1 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 				C0CFDDCF23F19F9F00B53781 /* SceneDelegate.swift */,
 				C0EB35B12408106D0016DBD1 /* Views */,
 				C0EB35B0240810560016DBD1 /* ViewModels */,
+				C0EB35B824095A600016DBD1 /* Model */,
 				C0CFDDD623F19FA300B53781 /* Assets.xcassets */,
 				C0CFDDDB23F19FA300B53781 /* LaunchScreen.storyboard */,
 				C0CFDDDE23F19FA300B53781 /* Info.plist */,
@@ -114,8 +121,18 @@
 				C0EB35B2240810E50016DBD1 /* DragDropListView.swift */,
 				C0EB35B4240815940016DBD1 /* SearchableListView.swift */,
 				C0EB35B624081C170016DBD1 /* SearchBar.swift */,
+				C0EB35BB240961A80016DBD1 /* MapView.swift */,
+				C0EB35BD240968910016DBD1 /* LocationDetailsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C0EB35B824095A600016DBD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB35B924095AA50016DBD1 /* TravelLocation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,13 +207,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07D47AB23F7143D00082409 /* FlagViewModel.swift in Sources */,
+				C0EB35BA24095AA50016DBD1 /* TravelLocation.swift in Sources */,
 				C0CFDDCE23F19F9F00B53781 /* AppDelegate.swift in Sources */,
 				C0EB35B3240810E50016DBD1 /* DragDropListView.swift in Sources */,
 				C0EB35AD2408079C0016DBD1 /* ActionSheetView.swift in Sources */,
 				C0CFDDD323F19F9F00B53781 /* SwiftUITuts.xcdatamodeld in Sources */,
 				C0EB35B724081C170016DBD1 /* SearchBar.swift in Sources */,
+				C0EB35BC240961A80016DBD1 /* MapView.swift in Sources */,
 				C0CFDDD523F19F9F00B53781 /* ContentView.swift in Sources */,
 				C0EB35AF24080F720016DBD1 /* PopOverView.swift in Sources */,
+				C0EB35BE240968910016DBD1 /* LocationDetailsView.swift in Sources */,
 				C0CFDDD023F19F9F00B53781 /* SceneDelegate.swift in Sources */,
 				C07D47A923F6FA9100082409 /* FlagDetailView.swift in Sources */,
 				C0EB35B5240815940016DBD1 /* SearchableListView.swift in Sources */,
