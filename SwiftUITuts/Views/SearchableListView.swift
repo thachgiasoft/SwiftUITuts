@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct SearchableListView: View {
-    @State var arr = ["ven","man","bal","shan","bala","balcha"]
+    @State var arr = ["ven","man","baasha","bal","shan","bala","balcha"]
     @State var searchTerm = ""
     var body: some View {
         NavigationView {
@@ -21,6 +21,8 @@ struct SearchableListView: View {
                     Text(item)
                 }
             }.navigationBarItems(trailing: EditButton())
+            .navigationBarTitle("My Friends")
+            .background(Color.red)
         }
     }
 }
