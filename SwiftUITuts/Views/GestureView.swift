@@ -9,13 +9,28 @@
 import SwiftUI
 
 struct GestureView: View {
+    @State var offset : CGSize = .zero
     var body: some View {
-        Text("Hello, World!")
-            .frame(width: 200, height: 200)
+        let drag =  DragGesture()
+            .onChanged { self.offset = $0.translation}
+            .onEnded {_ in
+                if self.offset.width < -150 {
+                    self.offset = .init(width: -1000, height: 0)
+                } else if self.offset.width > 150 {
+                    self.offset = .init(width: 1000, height: 0)
+                }
+                else {
+                    self.offset =  .zero
+                }
+                
+        }
+        return Text("Hello, World!")
+            .frame(width: 200, height: 300)
             .background(Color.red)
-            .gesture(TapGesture(count: 1).onEnded({ _ in
-                print("hello")
-            }))
+            .padding()
+            .offset(x: self.offset.width, y: self.offset.height)
+            .animation(.spring())
+            .gesture(drag)
     }
 }
 
