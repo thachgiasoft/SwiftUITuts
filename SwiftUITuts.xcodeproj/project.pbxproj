@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		25CDBA69240AAE59008D67AA /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDBA68240AAE59008D67AA /* ShapeView.swift */; };
+		25CDBA6B240B0C11008D67AA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDBA6A240B0C11008D67AA /* TabBarView.swift */; };
+		25CDBA6D240B0EF7008D67AA /* TopTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDBA6C240B0EF7008D67AA /* TopTabBarView.swift */; };
+		25CDBA6F240B1750008D67AA /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDBA6E240B1750008D67AA /* GestureView.swift */; };
 		C07D47A923F6FA9100082409 /* FlagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D47A823F6FA9100082409 /* FlagDetailView.swift */; };
 		C07D47AB23F7143D00082409 /* FlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D47AA23F7143D00082409 /* FlagViewModel.swift */; };
 		C0CFDDCE23F19F9F00B53781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CFDDCD23F19F9F00B53781 /* AppDelegate.swift */; };
@@ -30,6 +33,9 @@
 
 /* Begin PBXFileReference section */
 		25CDBA68240AAE59008D67AA /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		25CDBA6A240B0C11008D67AA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		25CDBA6C240B0EF7008D67AA /* TopTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarView.swift; sourceTree = "<group>"; };
+		25CDBA6E240B1750008D67AA /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 		C07D47A823F6FA9100082409 /* FlagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagDetailView.swift; sourceTree = "<group>"; };
 		C07D47AA23F7143D00082409 /* FlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewModel.swift; sourceTree = "<group>"; };
 		C0CFDDCA23F19F9F00B53781 /* SwiftUITuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +132,9 @@
 				C0EB35BB240961A80016DBD1 /* MapView.swift */,
 				C0EB35BD240968910016DBD1 /* LocationDetailsView.swift */,
 				25CDBA68240AAE59008D67AA /* ShapeView.swift */,
+				25CDBA6A240B0C11008D67AA /* TabBarView.swift */,
+				25CDBA6C240B0EF7008D67AA /* TopTabBarView.swift */,
+				25CDBA6E240B1750008D67AA /* GestureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,11 +224,14 @@
 				C0EB35B3240810E50016DBD1 /* DragDropListView.swift in Sources */,
 				C0EB35AD2408079C0016DBD1 /* ActionSheetView.swift in Sources */,
 				C0CFDDD323F19F9F00B53781 /* SwiftUITuts.xcdatamodeld in Sources */,
+				25CDBA6F240B1750008D67AA /* GestureView.swift in Sources */,
 				25CDBA69240AAE59008D67AA /* ShapeView.swift in Sources */,
 				C0EB35B724081C170016DBD1 /* SearchBar.swift in Sources */,
 				C0EB35BC240961A80016DBD1 /* MapView.swift in Sources */,
 				C0CFDDD523F19F9F00B53781 /* ContentView.swift in Sources */,
 				C0EB35AF24080F720016DBD1 /* PopOverView.swift in Sources */,
+				25CDBA6B240B0C11008D67AA /* TabBarView.swift in Sources */,
+				25CDBA6D240B0EF7008D67AA /* TopTabBarView.swift in Sources */,
 				C0EB35BE240968910016DBD1 /* LocationDetailsView.swift in Sources */,
 				C0CFDDD023F19F9F00B53781 /* SceneDelegate.swift in Sources */,
 				C07D47A923F6FA9100082409 /* FlagDetailView.swift in Sources */,

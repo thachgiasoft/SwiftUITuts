@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ShapeView: View {
+    
     var body: some View {
         CheckerBoard(rows: 10,cols: 10)
             .fill(Color.purple)
@@ -41,6 +42,10 @@ struct  CheckerBoard : Shape {
 
 struct ShapeView_Previews: PreviewProvider {
     static var previews: some View {
-        ShapeView()
+        Group {
+            ShapeView().previewDevice("iPhone 8")
+            ShapeView().previewDevice("iPhone 11")
+            ShapeView().previewDevice("iPhone 11 Pro")
+        }
     }
 }
